@@ -8,3 +8,5 @@ langchain-chroma
 langchain-text-splitters
 chromadb
 python-dotenv
+langchain-google-genai
+google-generativeai
