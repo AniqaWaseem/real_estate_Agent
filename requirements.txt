@@ -1,12 +1,20 @@
-fastapi
-uvicorn
-openai
-langchain
-langchain-openai
-langchain-community
-langchain-chroma
-langchain-text-splitters
-chromadb
-python-dotenv
-langchain-google-genai
-google-generativeai
+fastapi==0.115.0
+uvicorn==0.30.6
+python-dotenv==1.0.1
+
+# Vector DB
+chromadb==0.5.12
+
+# LangChain Core + Integrations
+langchain==0.2.14
+langchain-core==0.2.35
+langchain-text-splitters==0.2.2
+langchain-chroma==0.1.4
+
+# Google Gemini API + LangChain connector
+google-generativeai==0.8.3
+langchain-google-genai==1.0.7
+
+# Optional utilities / safety
+pydantic==2.9.2
+
